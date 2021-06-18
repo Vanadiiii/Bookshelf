@@ -1,0 +1,13 @@
+server:
+  port: 9024
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+  datasource:
+    username: ivan
+    password: 1234
+    url: jdbc:postgresql://localhost:5432/bookshelf
